@@ -1,0 +1,47 @@
+body {
+    background-image: url(../imagens/gradient-white-brown-linear-1920x1080-c2-fff0f5-fff8dc-a-270-f-14.svg);
+    /* para não repetir "background */
+}
+
+h1 {
+    text-align: center;
+    color: cornsilk;
+    background-color: rgb(247, 211, 94);
+}
+
+h2 {
+    text-align: center;
+    color: cornsilk;
+    background-color: rgb(255, 201, 83);
+}
+
+p {
+    color: cornsilk;
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    /* "background-size: contain" PARA FICAR 100% VISÍVEL */
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+img {
+    border-radius: 10px;
+    /* borda redondinha */
+}
+
+.d-block {
+    height: 90vh;
+}
+
+#carouselExampleCaptions .carousel-caption h5 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.rodapé {
+    background-color: black;
+    color: cornsilk;
+    margin-bottom: 50px;
+    text-align: center
+}

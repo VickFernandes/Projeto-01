@@ -1,0 +1,194 @@
+/* RESET */
+
+* {
+    margin: 0;
+    /* mergem */
+    padding: 0;
+    /* Espaçamento interno */
+    font-size: 100%;
+    /* tamanho da fonte */
+    font-family: 'Open Sans', sans-serif;
+    /* fonte dos textos */
+    font-weight: normal;
+    /* largura das letras */
+    box-sizing: border-box;
+    /* tamanho da caixa */
+    border: none;
+    /* borda */
+    outline: none;
+    /* linha de fundo */
+}
+
+body {
+    background-color: cornsilk;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    /* borda redondinha */
+    display: block;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: cornsilk;
+}
+
+h2 {
+    text-align: center;
+    color: cornsilk;
+    background-color: rgb(231, 173, 66);
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    text-align: center;
+    color: cornsilk;
+    background-color: rgb(231, 173, 66);
+}
+
+p {
+    font-size: 1em;
+    color: rgb(204, 163, 101);
+    font-size: 20px;
+    text-align: center;
+    /* "background-size: contain" PARA FICAR 100% VISÍVEL */
+    font-family: monospace;
+}
+
+.titulos {
+    text-align: center;
+    color: cornsilk;
+    background-color: rgb(212, 150, 35);
+}
+
+
+/* CABEÇALHO */
+
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    /* espaçamento interno */
+    background-color: rgb(255, 226, 167);
+}
+
+.logo a {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-image: url(../imagens/Logo\ Melopan\ Store.png);
+    font-size: 0;
+}
+
+.cabecalho form {
+    width: 30%;
+    float: right;
+}
+
+.cabecalho input[type="text"] {
+    width: 85%;
+    float: left;
+    padding: 15px 10px;
+    border-radius: 10px 0 0 10px;
+}
+
+.cabecalho button {
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+    background-color: rgb(255, 249, 225);
+}
+
+
+/* MENU */
+
+.menu {
+    width: 100%;
+    float: right;
+    background-color: rgb(255, 194, 81);
+    padding: 18px 8%;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    color: white;
+    margin-right: 25px;
+}
+
+.menu li a:hover {
+    color: white;
+    font-size: 1.1em;
+}
+
+.socialicons {
+    float: right;
+}
+
+.socialicons a {
+    color: white;
+    float: left;
+    margin-left: 20px;
+}
+
+.fa-facebook-f:hover {
+    color: #3b5998;
+}
+
+.fa-twitter:hover {
+    color: #00acee;
+}
+
+.fa-instagram:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-google:hover {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-youtube:hover {
+    color: #c4302b;
+}
+
+.fa-linkedin:hover {
+    color: #0e76a8;
+}
+
+.links {
+    text-align: center;
+    color: cornsilk;
+    background-color: rgb(212, 150, 35);
+}
+
+.rodapé {
+    background-color: rgb(231, 173, 66);
+    color: cornsilk;
+    margin-bottom: 50px;
+    text-align: center
+}

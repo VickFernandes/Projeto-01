@@ -1,0 +1,8 @@
+.d-block {
+    height: 90vh;
+}
+
+#carouselExampleCaptions .carousel-caption h5 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}

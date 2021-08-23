@@ -1,0 +1,50 @@
+body {
+    background-image: url(../imagnes/44cde7e4c863c759de185e38b6e8355b.png);
+    /* para não repetir "background */
+}
+
+h1 {
+    text-align: center;
+    color: darkred;
+    background-color: black;
+}
+
+a {
+    text-align: center;
+    color: crimson;
+    background-color: black;
+}
+
+h2 {
+    text-align: center;
+    color: darkred;
+    background-color: black;
+}
+
+p {
+    color: crimson;
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+    /* "background-size: contain" PARA FICAR 100% VISÍVEL */
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    /* borda redondinha */
+}
+
+#botao01 {
+    border: 2px solid red;
+    background-color: blue;
+}
+
+
+/* se colocar #nomedaimagem essas config só se aplicam a imagem definida */
+
+
+/* ctrl+; para comentário (igual html) */

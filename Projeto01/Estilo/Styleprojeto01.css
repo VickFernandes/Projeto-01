@@ -1,0 +1,132 @@
+body {
+    background-color: rgb(243, 198, 229);
+    /* para não repetir "background */
+}
+
+h1 {
+    text-align: center;
+    color: rgba(107, 51, 180, 0.521);
+    background-color: rgb(202, 149, 226, 0.37);
+}
+
+a {
+    text-align: center;
+    color: rgb(138, 72, 118);
+    background-color: rgb(202, 149, 226, 0.37);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(158, 111, 144);
+    background-color: rgba(202, 149, 226, 0.37);
+}
+
+p {
+    color: rgb(161, 71, 134);
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(202, 149, 226, 0.37);
+    /* "background-size: contain" PARA FICAR 100% VISÍVEL */
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    /* borda redondinha */
+}
+
+
+/* se colocar #nomedaimagem essas config só se aplicam a imagem definida */
+
+
+/* ctrl+; para comentário (igual html) */
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1em;
+    color: #777
+}
+
+
+/* CABEÇALHO */
+
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    /* espaçamento interno */
+    background-color: rgb(230, 184, 212);
+}
+
+.logo a {
+    width: 84px;
+    height: 97px;
+    float: left;
+    background-image: url(../Imagem/logo\ \(1\).jpeg);
+    font-size: 0;
+}
+
+.cabecalho form {
+    width: 30%;
+    float: right;
+}
+
+.cabecalho input[type="text"] {
+    width: 85%;
+    float: left;
+    padding: 15px 10px;
+    border-radius: 10px 0 0 10px;
+}
+
+.cabecalho button {
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+    background-color: rgb(243, 198, 229);
+}
+
+.menu {
+    width: 100%;
+    float: right;
+    background-color: blueviolet;
+    padding: 18px 8%;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a {
+    color: cornflowerblue;
+    margin-right: 25px;
+}
+
+.menu li a:hover {
+    color: cornflowerblue;
+    font-size: 1.1em;
+}
+
+.social-icons {
+    float: right;
+    color: rgb(202, 149, 226, 0.37);
+}
